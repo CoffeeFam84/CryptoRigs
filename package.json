@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.0",
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "axios": "^0.21.1",
+    "canvas": "^2.8.0",
+    "ipfs-http-client": "^49.0.4",
+    "js-ipfs": "^0.0.301",
+    "jsonfile": "^6.1.0",
+    "merge-images-v2": "^2.0.1"
+  },
+  "devDependencies": {
+    "cids": "^1.1.8",
+    "getconfig": "^4.5.0",
+    "truffle-plugin-verify": "^0.5.12"
+  },
+  "scripts": {
+    "premint": "node pre-mint/index.js"
+  }
+}
